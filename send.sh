@@ -72,6 +72,7 @@ WEBHOOK_DATA='{
         "name": "Download @BetaTester"
         "value": "'"[\`DOWNLOAD\`](https://github.com/$TRAVIS_REPO_SLUG/releases/$TRAVIS_BRANCH)"'",
         "inline": true
+      }
     ],
     "timestamp": "'"$TIMESTAMP"'"
   } ]
