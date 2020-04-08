@@ -69,8 +69,13 @@ WEBHOOK_DATA='{
         "inline": true
       },
       {
-        "name": "Download @BetaTester",
+        "name": "Download @ GitHub ONLY FOR RELEASES!",
         "value": "'"[\`$TRAVIS_BRANCH\`](https://github.com/$TRAVIS_REPO_SLUG/releases/$TRAVIS_BRANCH)"'",
+        "inline": true
+      },
+      {
+        "name": "Download @ GTNH Jenkins",
+        "value": "'"[\`Jenkins Download\`](http://jenkins.usrv.eu:8080/view/3rd%20Party%20Mods/job/Bartworks/lastSuccessfulBuild/artifact/build/libs/)"'",
         "inline": true
       }
     ],
